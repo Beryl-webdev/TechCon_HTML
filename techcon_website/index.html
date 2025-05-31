@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechCon 2024 - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TechCon 2024</h1>
+    <nav aria-label="Main navigation">
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+      <p>
+        TechCon 2024 is the premier conference for technology professionals, innovators, and enthusiasts. Join us for a multi-day event filled with insightful talks, hands-on workshops, and endless networking opportunities.
+      </p>
+
+      <video controls aria-describedby="video-desc">
+        <source src="media/techcon_promo.mp4" type="video/mp4">
+        <track src="media/techcon_captions.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag.
+      </video>
+      <p id="video-desc" class="sr-only">
+        Promotional video highlighting TechCon 2024 events, speakers, and venue.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved. <strong>Copyright</strong>.</p>
+  </footer>
+
+</body>
+</html>
 
